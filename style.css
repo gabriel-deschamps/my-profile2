@@ -1,0 +1,72 @@
+/* Colors and fonts */
+body{background-color:whitesmoke;
+
+fant-family:circular;
+font-size: 17px;}
+
+
+.container {
+	width: 700 px;
+	margin: 40px auto;
+}
+	
+@media (max-width: 400 px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-about{
+	background: white;
+	padding: 20px ;          
+	margin:  40px auto;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+	border: 6px black;
+	max-width: 900px;
+
+}
+
+.vidéo:hover{
+	font-size:15px
+
+}
+.vidéo{
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 10px;
+
+}
+
+
+
+
+li {
+	font-style:italic
+}
+
+.photos {
+	border-radius:75%;
+	height: 150px;
+	width: 150px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+
+}
+
+#alt {
+	height: 300px;
+	width: 400px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.7);
+	
+
+}
+
+.réseaux {
+	height: 70px;
+	width: 70px;
+
+}
